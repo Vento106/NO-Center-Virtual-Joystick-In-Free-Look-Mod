@@ -6,13 +6,13 @@ using UnityEngine;
 
 namespace ResetJoystickMod
 {
-    [BepInPlugin("com.yourname.resetjoystick", "Reset Joystick On Freelook", "1.0.0")]
+    [BepInPlugin("com.vento.resetjoystick", "Reset Joystick On Freelook", "1.0.0")]
     public class ResetJoystickPlugin : BaseUnityPlugin
     {
         void Awake()
         {
             // Initialize Harmony and apply all patches defined in this assembly
-            var harmony = new Harmony("com.yourname.resetjoystick");
+            var harmony = new Harmony("com.vento.resetjoystick");
             harmony.PatchAll();
             Logger.LogInfo("Reset Joystick Mod Loaded Successfully!");
         }
