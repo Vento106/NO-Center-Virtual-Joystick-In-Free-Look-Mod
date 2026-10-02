@@ -21,7 +21,7 @@ namespace ResetJoystickMod
     [HarmonyPatch(typeof(PilotPlayerState), "PlayerAxisControls")]
     public class PlayerAxisControlsPatch
     {
-        // Метод Prefix выполняется перед оригинальным методом
+        // Prefix method runs before original method
         static bool Prefix(PilotPlayerState __instance)
         {
             Debug.Log("ResetJoystickMod: Method executed.");
