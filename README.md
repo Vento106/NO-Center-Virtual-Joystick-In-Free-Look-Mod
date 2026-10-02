@@ -1,7 +1,7 @@
 File descriptions:
 
-ResetJoystickMod.dll - compiled file which you put in the BepInEx\plugins folder.
+CenterVirtualJoystickWithFreelook.dll - compiled file which you put in the BepInEx\plugins folder.
 
-ResetJoystickMod.cs - source C# code.
+centerVirtualJoystickWithFreelook.cs - source C# code.
 
-ResetJoystickMod.csproj - source C# project.
+centerVirtualJoystickWithFreelook.csproj - source C# project.
